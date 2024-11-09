@@ -1,10 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const postRoutes = require('./routes/posts')
 
 
+// create instance
 const app = express();
 
+// port assign variable declaration
 const PORT = process.env.PORT || 5000;
 
 // MiddleWare 
@@ -18,11 +21,9 @@ mongoose.connect('mongodb://localhost:27017/blog')
 
 
 
-// sample 
-app.get('/',(req,res)=>{
-    res.send('Hello World')
-})
+// Use routes
 
+app.use('/api/posts' , postRoutes );
 
 
 

@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Introduction to HTML",
+        "content": "HTML is HyperText Markup Language",
+        "category": "Markup Language",
+        "author": "sudhagar",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVFV_ihxipeZmqzxF_VUu2zkJUrxL7vgGidg&s",
+        "createdAt": "2024-11-09T10:00:00Z",
+        "updatedAt": "2024-11-09T10:00:00Z"
+    },
+    {
+        "title": "Introduction to CSS",
+        "content": "CSS is Cascading Style Sheets",
+        "category": "Stylesheet",
+        "author": "sudhagar UI",
+        "image": "https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png",
+        "createdAt": "2024-12-09T10:00:00Z",
+        "updatedAt": "2024-12-09T10:00:00Z"
+    },
+    {
+        "title": "Introduction to JS",
+        "content": "JS is a JavaScript programming language",
+        "category": "Programming Language",
+        "author": "sudhagar action",
+        "image": "https://bairesdev.mo.cloudinary.net/blog/2023/08/What-Is-JavaScript-Used-For.jpg?tx=w_1920,q_auto",
+        "createdAt": "2024-11-09T10:00:00Z",
+        "updatedAt": "2024-11-09T10:00:00Z"
+    }
+]
